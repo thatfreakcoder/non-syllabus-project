@@ -1,0 +1,99 @@
+{% extends 'block.html' %}
+
+{% block style %}
+<style type="text/css">
+    .header-text{
+        background-color: #8af777;
+        padding: 5px;
+        margin-top: 10px;
+        border-radius: 30px;
+        /*color: white;*/
+    }
+    h1{
+        font-size: 60px;
+    }
+
+    .offer img{
+        height: 300px;
+        width: 300px;
+    }
+    .offer p{
+        text-align: justify;
+        margin: 20px;
+        font-size: 20px;
+    }
+    .syllabus{
+        margin-top: 20px!important;
+        border-radius: 10px;
+        color: black;
+    }
+    .card{
+        background-color: #1c1c1c;
+        color: white;
+        border-radius: 20px;
+    }
+
+</style>
+{% endblock %}
+
+{% block subcontent %}
+    <div class="text-center w-75 m-auto">
+        <div class="header">
+            <div class="header-text">
+                <h1>Welcome to <b>Cotes</b> | Courses and Notes</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="header-img col-lg-6">
+            <img src="https://img.freepik.com/free-vector/group-college-university-students-hanging-out_74855-5251.jpg?size=626&ext=jpg">
+        </div>
+        <div class="col-6">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+        </div>
+    </div>
+</div>
+<div class="offer m-auto text-center">
+    <h1 class="header-text w-50 m-auto">What We Offer</h1>
+    <div class="row">
+        <div class="col-3">
+            <img src="https://cdni.iconscout.com/illustration/premium/thumb/timetable-courses-1840462-1561572.png">
+            <h3>Weekly Timetable</h3>
+            <p>It will provide us links of daily going classes, from monday to saturday. Classes conduct on google meet. Student can easily find link of every respective class. Timetable will update weekly by class tutor.</p>
+        </div>
+        <div class="col-3">
+            <img src="https://img.freepik.com/free-vector/vector-illustration-little-people-fill-out-form-modern-concept_126608-443.jpg?size=338&ext=jpg">
+            <h3>Semester Wise Syllabus</h3>
+            <p>Syllabus will be shown according to students respective year (odd and even semester). Will be helpful for every year student. Will be easy to find syllabus according to their semester. Syllabus is verified by its respective subject teacher.</p>
+        </div>
+        <div class="col-3">
+            <img src="https://img.freepik.com/free-vector/image-upload-concept-illustration_114360-996.jpg?size=338&ext=jpg">
+            <h3>Request or Upload Notes</h3>
+            <p>Student can request notes which they need. Notes will be uploaded by teachers. Student can also upload notes but it will be verified by teachers. Every student of each semester can request for any notes related to any subject.</p>
+        </div>
+        <div class="col-3">
+            <img src="https://img.freepik.com/free-vector/illustration-avatar-social-network-concept_53876-28547.jpg?size=626&ext=jpg">
+            <h3>Public Forum (beta)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+</div>
+ <div class="card syllabus w-50 m-auto text-center">
+    <div class="card-header">
+        <h3>Syllabus for this week</h3>
+    </div>
+    <div class="card-body">
+        <button class="btn btn-primary">Download Timetable for this week</button>
+    </div>
+</div>
+{% endblock %}
