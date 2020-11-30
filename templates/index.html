@@ -15,6 +15,14 @@
     .offer img{
         height: 300px;
         width: 300px;
+        transition: transform 0.3s;
+        padding: 15px;
+    }
+    .header .col-3{
+        border: 3px solid;
+    }
+    .offer img:hover{
+        transform: scale(1.1);
     }
     .offer p{
         text-align: justify;
@@ -31,6 +39,7 @@
         color: white;
         border-radius: 20px;
     }
+
 
 </style>
 {% endblock %}
@@ -83,7 +92,7 @@ Open Platform for answering specific doubts by both students and teachers.</h2>
 <div class="row">
      <div class="card syllabus w-50 m-auto text-center col-5">
         <div class="card-header">
-            <h3>Syllabus for this week</h3>
+            <h3>Timetable for this week</h3>
         </div>
         <div class="card-body">
             <a class="btn btn-primary" href="https://drive.google.com/file/d/1p9KcemvJ_Sz54WZPhId_ac2CgVKraWah/view?usp=sharing" 

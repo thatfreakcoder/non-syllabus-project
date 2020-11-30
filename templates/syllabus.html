@@ -1,5 +1,22 @@
 {% extends 'block.html' %}
 
+{% block style %}
+<style type="text/css">
+    .header h1{
+        font-size: 60px;
+        background-color: #8af777;
+        padding: 5px;
+        margin-top: 10px;
+        border-radius: 30px;
+    }
+</style>
+{% endblock %}
+
 {% block subcontent %}
-<h1>This is Syllabus page</h1>
+<div class="row ">
+    <div class="header m-auto text-center w-50">
+        <h1>Syllabus and Course</h1>
+    </div>
+    <h1></h1>
+</div>
 {% endblock %}
