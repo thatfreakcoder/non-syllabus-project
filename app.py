@@ -18,6 +18,10 @@ def available():
 def request():
     return render_template('request.html')
 
+@app.route('/upload')
+def upload():
+    return render_template('upload.html')
+
 @app.route('/login')
 def login():
     return render_template('login.html')
